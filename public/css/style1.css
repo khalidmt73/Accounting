@@ -1,0 +1,637 @@
+ /*!    ------------------------------------------------ main site  التنسيق العام للموقع*/
+@font-face {
+     font-family: myfont;
+     src: url(../fonts/GE_Dinar_Two_Light.otf);
+     font-size:13.5px;
+}
+
+body{
+	margin: 10px;
+	padding:0px;
+	font-family: Arial,myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 14px;
+	line-height: normal;
+	overflow-x: hidden;
+	height: 100%;
+	width: 98%;
+	background-color:#fff;
+}
+
+.main{
+	background-color:#fff;
+}
+.the-container{
+	border:0px solid #ccc;
+	width:100%;
+	background-color:#fff;
+	margin:0px;
+	padding:5px;	width: 98%;
+
+
+}
+.footer{
+  	margin-top:20px;
+}
+
+.logo_name{
+	margin:0px;
+	border:0px solid red;
+	text-align:right;
+}
+.logo_name_en{
+	font-family: Georgia,Arial,'Armata',  Helvetica, sans-serif !important;
+	font-size: 11px;
+	font-weight:bolder;	
+}
+.site_name{
+	font-weight:bolder;
+	text-align:right;
+	border:0px solid #008ec5;
+	color:#fff;
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 15px;
+	margin-bottom:0px;
+	margin-top:0px;
+	padding:6px;
+	background:#008ec5;
+}
+.logo_name_ar{
+	padding-right:10px;
+}
+.logo{
+}
+@media screen and (max-width:600px){
+	.logo {
+	width:300px;height:80px;
+	padding-left:2px;text-align:center;
+}
+
+	}
+.blanck{
+	font-weight:bolder;
+	width:300px;
+	border:2px solid #fff;
+	color:#fff;
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 20px;
+	margin-bottom:10px;
+	padding:6px;
+	background:#fff;
+}
+.role{
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 12px;
+}
+.head_role{
+	color:red;
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 15px;
+}
+.left_menu_pages {
+left:0px;
+right:auto;
+min-width:50px;padding:5px;
+
+}
+ /*!    --------------------------------------------------navbar_links عنوان الصفحة*/
+
+.navbar_links{
+	border:px solid #297792;
+	background-color:#3facd2;
+	padding:5px;
+	color:#fff;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100%;
+	font-weight:bolder;
+	font-size:13px;
+	text-align:right;
+    font-family: myfont;
+}
+
+ /*!    ---------------------------------------------------------navbar القائمة العليا*/
+.navbar_top{
+background-color:#fff;
+font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+border:1px solid #008ec5;
+margin-bottom:20px;
+}
+
+.navbar_top .navbar-nav > li.active > a {
+	color:#fff;
+	background:#008ec5;
+
+}
+.navbar_top .navbar-nav > li > a:hover{
+color:#fff;
+background:#008ec5;
+}
+.navbar_top .navbar-nav > li.active > a:hover{
+color:#fff;
+background:#008ec5;
+}
+.navbar_top .navbar-nav > li > a
+{
+background-color:#fff;
+color:#000;
+padding:10px 10px 10px 10px;
+
+}
+.navbar-toggle{
+	background:#fff;
+	margin-top:5px;
+	border:1px solid #ccc;
+}
+
+
+.icon-bar{
+color:#000;
+border:1px solid #000;
+}
+.navbar-header{
+margin-top:0px;
+}
+.dropdown-menu > li > a{
+	border-bottom:1px solid #f3f3f3;
+}
+.dropdown-menu .env{
+	border-bottom:0px solid #f3f3f3;
+	background:#eee;
+}
+@media screen and (max-width:600px){
+	#bs-navbar {
+		background-color:#fff;
+		margin-top:0px;
+		margin-bottom:20px;
+		border:1px solid #ccc;
+		z-index:999;
+	}
+
+	
+	/* carousel */
+	.img-responsive,
+	.thumbnail > img, 
+	.thumbnail a > img,
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img	{
+	 height:120px;
+	}
+	body{
+	margin-top:0px;
+	}
+	.navbar-nav .open .dropdown-menu{
+		background-color:#fff;
+		margin-top:0px;
+		margin-bottom:0px;
+		border:1px solid #f3f3f3;
+		width:80%;
+	}
+}
+
+ /*!    -------------------------------------------------- carousel الكارسول المتحرك */
+
+#carousel{
+	margin-top:0px;
+}
+
+.carousel-control,
+.carousel-control:link,
+.carousel-control:hover, 
+.carousel-control:focus{
+background:#fff;
+color:#000;
+opacity:0.2;
+}
+.carousel-indicators .active{
+background:#ccc;
+}
+.carousel-indicators li{
+background:#000;
+}
+
+ /*!    --------------------------------------------------------- Headline العناوين */
+
+.data_font{
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight:bolder;
+	padding:5px;
+	border:1px solid #008ec5;
+	margin-top:5px;
+	margin-bottom:15px;
+	width:240px;
+} 
+
+.main_font{
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 20px;
+	line-height: 150%;
+	font-weight:bolder;
+	padding:5px;
+}
+.head_font{
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 16px;
+	line-height: 150%;
+	font-weight:bolder;
+	padding:5px;
+}
+.head_smal_font{
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 13px;
+	font-weight:bolder;
+	padding:0px;
+}
+.photo_font{
+	font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 15px;
+	line-height: 150%;
+	font-weight:bolder;
+	padding:5px;
+
+}
+.headline {
+ 	font-size: 15px;
+	font-family: Helvetica, sans-serif !important;
+	font-weight:bolder;
+	color:gray;
+	/*text-decoration: underline; */
+	line-height: normal;
+	padding: 0px;
+	margin: 0px;
+	/* vertical-align: middle; */
+	text-align: center;
+	margin-top:4px;
+}
+
+.pl_heding{
+	height:30px;
+	margin-bottom:20px;
+}
+
+ /*!    ---------------------------------------------------------pagination تعدد الصفحات*/
+
+.pagination{
+	margin:0px;
+}
+.pagination > li > a,
+.pagination > li > span{
+	padding:2px;
+	width :25px;
+	height:25px;
+	font-size:11px;
+	text-align:center;
+	color:#000;
+}
+
+.pagination > .active > a, .pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus,
+.pagination > .active > span:focus
+.pagination > li > a, .pagination > li.active > span{
+	background-color:#ccc;
+	border:1px solid #ccc;
+	text-align:center;
+	color:#000;
+}
+
+ /*!    ----------------------------------------------------viewData_icon ايقونات العرض*/
+
+ .icon-copy,
+ .icon-edit,
+ .icon-delete,
+ .icon-pay,
+ .icon-reply{
+	display: inline-block;
+	margin: 0 4px 0 0;
+	width: 23px;
+	height: 24px;
+}
+.icon-copy{
+	background: url(../img/copy.png) 0 0 no-repeat;
+}
+ .icon-edit{
+	background: url(../img/edit.png) 0 0 no-repeat;
+}
+.icon-delete{
+	background: url(../img/delete.png) 0 0 no-repeat;
+}
+
+.icon-pay{
+	background: url(../img/pay.png) 0 0 no-repeat;
+}
+.icon-reply{
+	background: url(../img/reply.png) 0 0 no-repeat;
+}
+.icon-copy:hover,
+.icon-edit:hover,
+.icon-delete:hover,
+.icon-pay:hover,
+.icon-reply:hover{
+	background-position: 0 -24px;
+}
+
+
+ /*!    ---------------------------------------------------------viewData عرض البيانات*/
+
+.viewData_tb > tbody > tr > td{
+	border:0px solid #000;
+    background:#fff;
+}
+
+ .viewData_tb.table{
+	margin:0px;
+}
+.tr_head{
+    background:#eeeeee;
+	color:#000;
+	height:5px;
+	padding:0px;
+}
+.well_tb{
+    background:#fff;
+	padding:3px;
+	border-top:1px #dadddd solid;
+	border-radius:2px;
+}
+.hr{
+	padding:0px;
+	margin-top:5px;
+	margin-bottom:15px;
+	border-bottom:1px solid #dadddd;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1){
+
+}
+.box{
+	border:0px solid #e6e6e6;padding:0px;
+	background:#fff;
+}
+@media screen and (max-width:600px){
+.box{
+	width:100%;border:1px solid #f2f2f2;padding:0px;
+	}
+	.menu_select.dropdown-menu{
+	width:20px;padding:2px;
+	right:0px;
+	}
+}
+ 
+.menu_select.dropdown-menu{
+	width:20px;padding:2px;
+	right:250px;
+	min-width:100px;text-align:left;
+	}
+.dropdown-menu{	
+	
+}
+
+
+ /*!    --------------------------------------------------------- panel لوحة العرض */
+
+ .badge{
+	background-color:#fff;
+	color:red;
+ }
+
+.panel-heading{
+	padding:0px;
+}
+.pl-heading{
+	padding:10px;
+}
+
+.head_page {
+font-size: 15px;
+font-weight:bolder;
+padding-top:15px;
+padding-right:10px;
+text-align:right;
+}
+ /*!    --------------------------------------------------------- msg الرسائل */
+
+.msg_create{
+	font-weight:bolder;
+	text-align: center;
+    margin: 200px;
+	border:1px solid #008ec5;
+	background-color:#008ec5;
+	padding:10px;
+	color:#fff;
+	width:500px;
+ }
+.msg_update{
+	font-weight:bolder;
+	text-align: center;
+    margin: 200px;
+	border:1px solid #008ec5;
+	background-color:#008ec5;
+	padding:10px;
+	color:#fff;
+	width:500px;
+
+ }
+.msg_delet{
+	font-weight:bolder;
+	text-align: center;
+    margin: 200px;
+	border:1px solid #008ec5;
+	background-color:#008ec5;
+	padding:10px;
+	color:#fff;
+	width:500px;
+ }
+ /*!    --------------------------------------------------------- button الأزرار */
+
+.add_btn {
+	border:0px solid red;
+	background:#2d9ed3;
+	color:#fff;
+}
+.add_btn:hover{
+	border:0px solid red;
+	background:#c0e5f8;
+	color:#000;
+}
+
+.edit_btn{
+	border:0px solid red;
+	background:green;
+	color:#fff;
+}
+.edit_btn:hover{
+	border:0px solid red;
+	background:#c4e0ab;
+	color:#000;
+}
+
+/*! ------------------------------------------------ call form نموذج اتصل بنا  */
+
+.box_msg{
+background-image: url("http://localhost/light/public/img/contact.png");
+border:1px #f4f4f4 solid;
+margin-bottom:20px;
+border-radius:15px;
+text-align: center;
+font-family: myfont,GE,'Armata',  Helvetica, sans-serif !important;
+font-size: 15px;
+line-height: normal;
+}
+
+
+.block{
+	display:inline-block;
+	margin-right:0px;
+	margin-bottom:40px;
+	border:1px solid #ccc;
+	border-radius:15px;
+	width:250px;
+	height:150px;
+	padding:30px;
+}
+/*! ------------------------------------------------------------ HR الفاصل الرئيسي  */
+
+.hr_div{
+	width:100%;
+	border:1px #f4f4f4 solid;
+}
+
+ /*!    -------------------------------------- social media ايقونات التواصل الاجتماعي*/
+.soc:hover{
+text-decoration:none;
+opacity: 0.7;
+}
+.soc div{	
+	width: 25px;
+	height: 25px;
+	padding:2px;
+	text-align: center;
+	font-size: 20px;		
+	color: #333536;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;	
+	font-size: 20px;
+	color: #ffffff;
+	display: inline-block;
+    vertical-align: bottom;
+}
+
+.facebook{
+	background:#3a589b;	
+}
+.twitter{
+	background:#598dca;	
+}
+
+.youtube{
+	background:#cf3427;	
+}
+.href,.href:link, .href:focus, .href:hover {
+text-decoration :none; 
+color:#000;
+}
+
+/*! ------------------------------------------------------------ new pohot صور جديدنا  */
+
+.new{
+	display:inline-block;
+	margin-right:25px;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	border-radius:15px;
+	width:220px;
+}
+.new:hover{
+background:#fff;
+opacity:0.5;
+}
+/*! ------------------------------------------------------------------ editor المحرر  */
+.rte {
+width:auto;
+height:auto;
+min-height:200px;
+border: 1px solid #c0c0c0;
+padding:10px;
+font-family:arial;
+}
+#menu {
+width:auto;
+height:auto;
+border: 1px solid #c0c0c0;
+padding:5px;
+background-color:#efefef;
+}
+.btn_editor:hover{
+border: 1px solid #a7a7a7;
+}
+.btn_editor{
+	padding:2px;
+    border: 1px solid #ccc;
+	width :25px;
+	height:25px;
+}
+.fa_editor{
+
+}
+.textarea{
+display:none;
+}
+
+.selecter{
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  background-color: #fff;
+	  width:100px;
+	  height:25px;
+	  font-size:12px;
+	  color:#999999;
+	  padding-right:1px;
+}
+.size10{font-size:10px;}
+.size15{font-size:15px;}
+.size20{font-size:20px;}
+.size25{font-size:25px;}
+/*! ------------------------------------------------------------------------------ */
+
+/* ###### White / Pink #########*/
+.white-pink {
+     margin-left:auto;
+     margin-right:auto;
+     background: #FFF;
+     padding: 10px 10px 10px 10px;
+     font: 13px myfont,Arial, Helvetica, sans-serif;
+     color: #000;
+	 border:1px solid #ebebeb;
+     border-radius: 5px;
+     -webkit-border-radius: 0px;
+}
+.white-pink h4 {
+     font: 20px myfont,"Trebuchet MS", Arial, Helvetica, sans-serif;
+     padding: 0px 10px 10px 0px;
+     display: block;
+     border-bottom: 1px solid #F5F5F5;
+     color: #969696;
+	 margin-bottom:10px;
+}
+
+ .search_input{
+	text-align:right;
+    background-color: #fff;
+    background-image: url(../img/search.png);
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+ }
+
+label {padding:10px;}
+
+.nav-tabs{
+	text-align:center;
+     background:#fff;
+	 padding-top:5px;
+	 margin-bottom:50px;
+	
+}

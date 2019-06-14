@@ -1,0 +1,32 @@
+ /*!    ------------------------------------------------ main site  التنسيق العام للموقع*/
+ <!--
+   @page{orphans:4; widows:2;}
+   -->
+
+@font-face {
+     font-family: myfont;
+     src: url(../fonts/GE_Dinar_Two_Light.otf);
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	font-family: myfont,Arial,GE,'Armata',  Helvetica, sans-serif !important;
+	font-size: 13px;
+	line-height: 1.2;
+	background-color:#fff;
+	color:black;
+	font-weight:bolder;
+	width:100%;
+	height:100%;
+}
+ 
+ @page { size : landscape }
+@page :left {
+margin: 0.5cm;
+}
+
+@page :right {
+margin: 0.8cm;
+}
+
